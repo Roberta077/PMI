@@ -1,4 +1,4 @@
-namespace notes;
+namespace note;
 
 public partial class NotePage : ContentPage
 {
@@ -6,4 +6,5 @@ public partial class NotePage : ContentPage
 	{
 		InitializeComponent();
 	}
+
 }

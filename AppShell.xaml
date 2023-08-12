@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="notes.AppShell"
+    x:Class="note.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:notes"
+    xmlns:local="clr-namespace:note"
     Shell.FlyoutBehavior="Disabled">
+
+
     <TabBar>
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    <ShellContent
-        Title="sobre"
-        ContentTemplate="{DataTemplate local:Sobre}"
-         Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
-       </TabBar>
+        <ShellContent
+            Title="Sobre"
+            ContentTemplate="{DataTemplate local:Sobre}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+    </TabBar>
 </Shell>
-
-    

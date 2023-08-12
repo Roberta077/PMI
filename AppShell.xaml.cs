@@ -1,4 +1,4 @@
-﻿namespace notes;
+﻿namespace note;
 
 public partial class AppShell : Shell
 {

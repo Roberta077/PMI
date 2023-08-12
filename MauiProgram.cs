@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace notes;
+namespace note;
 
 public static class MauiProgram
 {
